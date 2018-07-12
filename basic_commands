@@ -1,0 +1,35 @@
+# To view the shells
+cat /etc/shells
+
+# To check interactive shell
+echo $-
+
+# To check login shell
+# shopt command is used to provide additional shell options 
+shopt | grep login_shell
+
+# To set the shell behaviour
+shopt -s [option]
+
+# To see the current shell
+echo $0
+
+# To see the default shell
+echo $SHELL
+
+# To inherit varibales in subshell
+export var="something"
+
+# To have varibales only in current shell
+var="something"
+
+# Use set command to set set shell options. Below command print all the shell options. Use '-' for enabling and '+' for disabling
+set -o
+ 
+# Below shell option restrict the speicial characters from expanding
+set -o noglob
+
+
+
+
+
