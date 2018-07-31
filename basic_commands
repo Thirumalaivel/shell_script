@@ -29,7 +29,14 @@ set -o
 # Below shell option restrict the speicial characters from expanding
 set -o noglob
 
-#This is comment to test the PULL request
+# Command to see the signal type
+kill -l
+
+# Kill commad by defualt send SIGTERM signal unless it is sepcified externally. It shutdown the process gracefully by closing open files and removing it from memory.
+kill -15 pid
+
+# 
+
 
 
 
