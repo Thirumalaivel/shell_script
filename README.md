@@ -1,2 +1,2 @@
 # shell_script
-Contains shell script commands and script files
+Contains shell script commands and script files and others
